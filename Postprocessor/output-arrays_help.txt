@@ -1,0 +1,19 @@
+These are the main output arrays available to the postprocessor
+
+z (nsteps)           			% Distance along the undulator
+power(nslice, nsteps)			% Power along the undulator (W)
+bunching(nslice,nsteps)			% bunching factor
+energy(nslice,nsteps)			% mean energy (normalized to m0c^2)
+xrms(nslice,nsteps)
+yrms(nslice,nsteps)
+eta(nslice,nsteps)
+r_size(nslice,nsteps)
+ncslice(nslice,nsteps) % fraction trapped
+zpos(nslice)
+current(nslice)
+timearray(nslice) = zpos/c
+K_undulator (nsteps)
+lambda_undulator (nsteps)
+d3fac (nsteps)        %tapering factor
+gammaresonant(nsteps)
+resphase(nsteps)
